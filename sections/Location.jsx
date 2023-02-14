@@ -16,7 +16,7 @@ const Location = () => {
           <Image
             className="object-cover object-center w-full"
             alt="Where we play"
-            src={"/img/where-we-play.png"}
+            src={"/img/map.png"}
             width={600}
             height={600}
           />

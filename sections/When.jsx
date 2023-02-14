@@ -13,7 +13,7 @@ const When = () => {
   if (isDST(today)) {
     summertime = (
       <div className="flex flex-col">
-        <dt className="order-2 mt-2 text-lg leading-6 font-medium text-green-200 md:text-6xl">
+        <dt className="order-2 mt-2 text-lg leading-6 font-medium text-white md:text-6xl">
           WED
         </dt>
         <dd className="order-1 text-5xl font-extrabold text-white md:text-8xl">
@@ -34,7 +34,7 @@ const When = () => {
           </div>
           {summertime}
           <div className="flex flex-col mt-10 sm:mt-0">
-            <dt className="order-2 mt-2 text-4xl leading-6 font-medium text-green-200 md:text-6xl">
+            <dt className="order-2 mt-2 text-4xl leading-6 font-medium text-white md:text-6xl">
               SUN
             </dt>
             <dd className="order-1 text-8xl font-extrabold text-white md:text-8xl">
