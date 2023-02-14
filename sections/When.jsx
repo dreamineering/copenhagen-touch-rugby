@@ -29,7 +29,7 @@ const When = () => {
         <dl className="mt-10 text-center sm:max-w-3xl sm:mx-auto sm:grid sm:grid-cols-2 sm:gap-8">
           <div className="flex flex-col mt-10 sm:mt-0">
             <h1 className="text-6xl pb-4 tracking-tight font-bold text-gray-300 sm:text-8xl md:text-8xl xl:text-9xl">
-              Starts
+              Play
             </h1>
           </div>
           {summertime}
