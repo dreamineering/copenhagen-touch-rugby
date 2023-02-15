@@ -1,0 +1,12 @@
+import { ArticleLayout } from "@/components/ArticleLayout";
+
+export const meta = {
+  author: "Matt Mischewski",
+  date: "2023-02-02",
+  title: "Attack Drills",
+  description: "Practicing attack",
+};
+
+export default (props) => <ArticleLayout meta={meta} {...props} />;
+
+MDX is the easiest way to create a new page of content and not have a newbie mess up the styling, but also provide capability to craft a page layout with special features exactly as you like.

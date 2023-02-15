@@ -19,13 +19,13 @@ const ssp = Source_Sans_Pro({
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html className="h-full antialiased" lang="en">
       {/*
         <head /> will contain the components returned by the nearest parent
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className="font-ssp">
+      <body className="font-ssp h-full bg-zinc-50 dark:bg-black">
         <Navbar />
         {children}
         <Footer />

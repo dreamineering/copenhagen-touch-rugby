@@ -1,5 +1,7 @@
 import styles from "../styles";
 
+import { Header } from "./Header";
+
 const Navbar = () => (
   <nav className={`${styles.xPaddings} py-8 relative`}>
     <div className="absolute w-[50%] inset-0" />
@@ -10,6 +12,7 @@ const Navbar = () => (
       <h1 className="mx-auto text-center font-bold text-[40px] md:text-[60px] xl:text-[120px] text-black uppercase">
         Touch Rugby
       </h1>
+      <Header />
     </div>
   </nav>
 );
