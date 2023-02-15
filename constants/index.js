@@ -9,19 +9,23 @@ export const rules = [
 
 export const socials = [
   {
-    name: "twitter",
-    url: "/icons/twitter.svg",
-  },
-  {
-    name: "linkedin",
-    url: "/icons/linkedin.svg",
-  },
-  {
     name: "instagram",
     url: "/icons/instagram.svg",
+    link: "https://www.instagram.com/copenhagentouchrugby/",
   },
   {
     name: "facebook",
     url: "/icons/facebook.svg",
+    link: "https://www.facebook.com/groups/172852439436767/events",
+  },
+  {
+    name: "twitter",
+    url: "/icons/twitter.svg",
+    link: "https://twitter.com/cphtouchrugby",
+  },
+  {
+    name: "discord",
+    url: "/icons/discord.svg",
+    link: "https://discord.com/channels/1055417123696017448/1055417123696017450",
   },
 ];
