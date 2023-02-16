@@ -7,7 +7,7 @@ const Player = () => {
       <svg
         width="1040"
         height="432"
-        className="object-cover h-48 w-full md:h-96 xl:mt-24"
+        className="object-cover h-48 w-full md:h-96 xl:mt-4"
         viewBox="0 0 1040 432"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
