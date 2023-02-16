@@ -7,7 +7,7 @@ import { getAllArticles } from "@/lib/getAllArticles";
 
 function Article({ article }) {
   return (
-    <article className="md:grid md:grid-cols-4 md:items-baseline">
+    <article className="md:grid md:grid-cols-4 md:items-baseline pb-12 ">
       <Card className="md:col-span-3">
         <Card.Title href={`/articles/${article.slug}`}>
           {article.title}
