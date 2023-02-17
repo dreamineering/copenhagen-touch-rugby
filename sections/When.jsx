@@ -28,7 +28,7 @@ const When = () => {
       <div className="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8 lg:py-20">
         <dl className="mt-10 text-center sm:max-w-3xl sm:mx-auto sm:grid sm:grid-cols-2 sm:gap-8">
           <div className="flex flex-col mt-10 sm:mt-0">
-            <h1 className="text-6xl pb-4 tracking-tight font-bold text-gray-300 sm:text-8xl md:text-8xl xl:text-9xl">
+            <h1 className="text-6xl pb-4 tracking-tight font-bold text-gray-300 sm:text-8xl md:text-8xl xl:text-9xln uppercase">
               <Link className="hover:text-red-600" href={"/play"}>
                 Play
               </Link>
