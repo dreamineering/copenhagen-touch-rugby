@@ -58,7 +58,17 @@ export default function About() {
               Have fun, get fit, make friends.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
-              <p>Playing touch is the best way to get fit and make friends.</p>
+              <p>Playing touch is a great way to get fit and make friends.</p>
+              <p>
+                Follow us on social media to join events and confirm play is
+                going ahead when weather is bad.
+              </p>
+            </div>
+            <h2 className="text-3xl pt-12 font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-4xl">
+              Admin Stuff
+            </h2>
+            <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+              <p>Registration details, payment etc</p>
             </div>
           </div>
           <div className="py-10">
