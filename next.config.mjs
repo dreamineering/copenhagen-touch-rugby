@@ -10,6 +10,9 @@ const nextConfig = {
     appDir: true,
     scrollRestoration: true,
   },
+  images: {
+    domains: ["https://unsplash.com"],
+  },
 };
 
 const withMDX = nextMDX({

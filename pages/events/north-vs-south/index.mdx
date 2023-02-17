@@ -1,0 +1,18 @@
+import { ArticleLayout } from "@/components/ArticleLayout";
+import Image from "next/image";
+import rugbyBall from "./rugby-ball-on-grass.jpg";
+
+export const meta = {
+  author: "Matt Mischewski",
+  date: "2023-05-05",
+  title: "North vs South",
+  description: "The North vs South touch game",
+};
+
+export default (props) => <ArticleLayout meta={meta} {...props} />;
+
+The annual North vs South friendly is coming around again this summer.
+
+<Image src={rugbyBall} alt="" />
+
+How will the North alter the trend...
