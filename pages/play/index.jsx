@@ -36,7 +36,7 @@ export default function ArticlesIndex({ articles }) {
   return (
     <>
       <Head>
-        <title>Articles - Copenhagen Touch Rugby</title>
+        <title>Play - Copenhagen Touch Rugby</title>
         <meta name="description" content="Thoughts on playing the game" />
       </Head>
       <SimpleLayout
