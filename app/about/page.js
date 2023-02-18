@@ -52,16 +52,20 @@ export default function About() {
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
               Join in
             </h1>
-            <p className="text-2xl pt-12 tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-3xl">
+            <p className="text-xl pt-12 tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
               Playing touch is a great way to get fit and make friends. Please track{' '}
               <Link href={'https://www.facebook.com/groups/172852439436767/events'}>
                 <span className="text-green-700">events</span>
               </Link>{' '}
-              posted to our <span className="text-green-700">facebook group</span> to confirm your
-              intent to play and track if play is going ahead due to sufficient interest.
+              posted to our{' '}
+              <Link href={'https://www.facebook.com/groups/172852439436767'}>
+                <span className="text-green-700">facebook group</span>
+              </Link>{' '}
+              to confirm your intent to play and track if play is going ahead due to sufficient
+              interest.
             </p>
-            <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
-              <h2 className="text-3xl pt-12 font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-4xl">
+            <div className="mt-4 text-lg space-y-7 text-zinc-600 dark:text-zinc-400">
+              <h2 className="text-3xl pt-10 font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-4xl">
                 Registration
               </h2>
               <p>
@@ -77,29 +81,38 @@ export default function About() {
               </p>
               <p>
                 To achieve these goals and to cover club expenses we need your support to collect
-                player data and fees/subscriptions.
+                player data and fees/subscriptions. These expenses include playing equipment, first
+                aid, bank account, accounting, digital presence and social events.
               </p>
-              <p>Player subscription fees are due again in spring 2023</p>
               <p>
-                Payments can be made to Mobilepay box 2955HH. Treasurer Nick Smith is the owner of
-                the box. Please add your contact information here: Current expenses The club
-                currently incurs expenses for: Playing equipment, First aid equipment, Bank account,
-                Accounting, Digital presence and social events. Board members Contact your board
-                members with queries or great ideas through facebook/messenger: An annual general
-                meeting will be held in 2023 where all subscribed members are welcome.
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdA1QvK0RF9RsmT9_pEJfsy8PyI3zAj9Ffhrrr5sUIy0mSpcw/viewform?fbclid=IwAR1oHuQ3_npvWT8PtjprZmIvTfnQy8eZ4jgE0yytPm6zDXjQ0cuHXuntXbE">
-                  Sign up form
+                Player subscription fees are due again in spring 2023. To signup please using this{' '}
+                <a
+                  className="text-green-700"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSdA1QvK0RF9RsmT9_pEJfsy8PyI3zAj9Ffhrrr5sUIy0mSpcw/viewform?fbclid=IwAR1oHuQ3_npvWT8PtjprZmIvTfnQy8eZ4jgE0yytPm6zDXjQ0cuHXuntXbE"
+                >
+                  registration form
                 </a>
               </p>
+              <p>
+                Payments can be made to Mobilepay box 2955HH where Treasurer, Nick Smith is the
+                owner of the box.
+              </p>
               <h3 className="text-2xl font-bold">Board Members</h3>
-              <p>The club is supported by a board of voluntary members</p>
-              <ul>
+              <p>
+                The club is supported by a board of voluntary members you can contact with queries
+                or great ideas through the links below.
+              </p>
+              <ul role="list">
                 <li>Chairman: Matt Humphrey</li>
                 <li>Vice Chairman: Scott Rooney</li>
                 <li>Welfare Officer: Rita Humeau</li>
                 <li>Secretary: Kane Limbrik</li>
                 <li>Treasurer: Nick Smith: </li>
               </ul>
+              <p>
+                An annual general meeting will be held in 2023 where all subscribed members are
+                welcome to attend.
+              </p>
             </div>
           </div>
           <div className="py-10">
