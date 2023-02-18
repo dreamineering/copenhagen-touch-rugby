@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 
 import { Card } from '@/components/Card';
 import { SimpleLayout } from '@/components/SimpleLayout';
@@ -35,10 +36,19 @@ export default function ArticlesIndex({ articles }) {
         <title>Play - Copenhagen Touch Rugby</title>
         <meta name="description" content="Thoughts on playing the game" />
       </Head>
-      <SimpleLayout
-        title="Playing the game"
-        intro="Rules of the game and thoughts on how to enjoy it more."
-      >
+      <SimpleLayout title="Playing the Game" intro="">
+        <p className="text-xl pb-12 tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
+          Playing touch is a great way to get fit and make friends. Please track{' '}
+          <Link href={'https://www.facebook.com/groups/172852439436767/events'}>
+            <span className="text-green-700">events</span>
+          </Link>{' '}
+          posted to our{' '}
+          <Link href={'https://www.facebook.com/groups/172852439436767'}>
+            <span className="text-green-700">facebook group</span>
+          </Link>{' '}
+          to confirm your intent to play and track if play is going ahead due to sufficient
+          interest.
+        </p>
         <div className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
           <div className="flex max-w-3xl flex-col space-y-16">
             {articles.map((article) => (
