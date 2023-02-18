@@ -24,7 +24,7 @@ const When = () => {
       <div className="md:mx-10 xl:mx-60 2xl:mx-80 pt-10 xl:pt-24">
         <h2 className="text-white uppercase text-center text-3xl pt-4 tracking-tight font-bold  sm:text-4xl md:text-4xl xl:text-5xl">
           Newcomers{' '}
-          <Link className="" href={'/play'}>
+          <Link className="" href={'/about'}>
             <span className="text-gray-300 hover:text-red-600">welcome</span>
           </Link>
         </h2>

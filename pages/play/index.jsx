@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 
 import { Card } from '@/components/Card';
 import { SimpleLayout } from '@/components/SimpleLayout';
@@ -35,10 +36,7 @@ export default function ArticlesIndex({ articles }) {
         <title>Play - Copenhagen Touch Rugby</title>
         <meta name="description" content="Thoughts on playing the game" />
       </Head>
-      <SimpleLayout
-        title="Playing the game"
-        intro="Rules of the game and thoughts on how to enjoy it more."
-      >
+      <SimpleLayout title="Playing the game" intro="">
         <div className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
           <div className="flex max-w-3xl flex-col space-y-16">
             {articles.map((article) => (
