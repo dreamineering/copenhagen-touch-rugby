@@ -46,15 +46,17 @@ export default function ArticlesIndex({ articles }) {
           <Link href={'https://www.facebook.com/groups/172852439436767'}>
             <span className="text-green-700">facebook group</span>
           </Link>{' '}
-          to confirm your intent to play and track if play is going ahead. If we don't have enough
-          people confirmed as attending, play will be cancelled. So if you don't want to risk making
-          a trip to the park for nothing, it pays to register your intent.
+          to confirm your intent to play. If there are insufficient numbers, play will be cancelled.
+          To prevent a trip to the park for nothing, it pays to{' '}
+          <Link href={'https://www.facebook.com/groups/172852439436767/events'}>
+            <span className="text-green-700">confirm your attendance</span>
+          </Link>
+          .
         </p>
         <p className="text-lg pb-12 tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-xl">
-          Playing touch is a great way to get fit and make friends. We play year round in
-          Faelledparken at 10:30 on Sunday and at 18:00 on Wednesday during the Danish summertime.
-          Typically the weather has to be pretty bad before play is canceled due to a lack of
-          interest.
+          Playing touch is a great way to get fit and make new friends in Copenhagen. We play year
+          round in Faelledparken at 10:30 on Sunday and at 18:00 on Wednesday during the Danish
+          summertime.
         </p>
         <p className="text-lg pb-12 tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-xl">
           The games are of a pick-up nature, and we play as many games as players and subs allow. So
