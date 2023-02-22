@@ -47,7 +47,7 @@ export default function ArticlesIndex({ articles }) {
             <span className="text-green-700">facebook group</span>
           </Link>{' '}
           to confirm your intent to play. If there are insufficient numbers, play will be cancelled.
-          To prevent a trip to the park for nothing, it pays to{' '}
+          To prevent a trip to the park for nothing,{' '}
           <Link href={'https://www.facebook.com/groups/172852439436767/events'}>
             <span className="text-green-700">confirm your attendance</span>
           </Link>
