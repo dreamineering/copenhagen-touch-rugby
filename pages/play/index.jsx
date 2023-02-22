@@ -38,7 +38,7 @@ export default function ArticlesIndex({ articles }) {
       </Head>
       <SimpleLayout title="Playing the Game" intro="">
         <p className="text-xl pb-12 tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
-          Playing touch is a great way to get fit and make friends. Please track{' '}
+          Please track{' '}
           <Link href={'https://www.facebook.com/groups/172852439436767/events'}>
             <span className="text-green-700">events</span>
           </Link>{' '}
@@ -46,9 +46,27 @@ export default function ArticlesIndex({ articles }) {
           <Link href={'https://www.facebook.com/groups/172852439436767'}>
             <span className="text-green-700">facebook group</span>
           </Link>{' '}
-          to confirm your intent to play and track if play is going ahead due to sufficient
-          interest.
+          to confirm your intent to play and track if play is going ahead. If we don't have enough
+          people confirmed as attending, play will be cancelled. So if you don't want to risk making
+          a trip to the park for nothing, it pays to register your intent.
         </p>
+        <p className="text-lg pb-12 tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-xl">
+          Playing touch is a great way to get fit and make friends. We play year round in
+          Faelledparken at 10:30 on Sunday at and 18:00 on Wednesday during summer hours. Typically
+          the weather has to be pretty bad before play will be canceled due to a lack of interest.
+        </p>
+        <p className="text-lg pb-12 tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-xl">
+          The games are of a pick-up nature, and we play as many games as players and subs allow. So
+          just find a group throwing a ball around, introduce yourself and then you are in. We are a
+          friendly bunch from all over the world so don't worry about formalities, just play in a
+          good spirit and enjoy yourself.
+        </p>
+        <p className="text-lg pb-12 tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-xl">
+          Recently we have become a registered with the local authorities with a roadmap towards
+          competing internationally, so there are plans for more formal competition. You can find
+          more about that on our about page.
+        </p>
+
         <div className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
           <div className="flex max-w-3xl flex-col space-y-16">
             {articles.map((article) => (
