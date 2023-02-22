@@ -52,8 +52,9 @@ export default function ArticlesIndex({ articles }) {
         </p>
         <p className="text-lg pb-12 tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-xl">
           Playing touch is a great way to get fit and make friends. We play year round in
-          Faelledparken at 10:30 on Sunday at and 18:00 on Wednesday during summer hours. Typically
-          the weather has to be pretty bad before play will be canceled due to a lack of interest.
+          Faelledparken at 10:30 on Sunday and at 18:00 on Wednesday during the Danish summertime.
+          Typically the weather has to be pretty bad before play is canceled due to a lack of
+          interest.
         </p>
         <p className="text-lg pb-12 tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-xl">
           The games are of a pick-up nature, and we play as many games as players and subs allow. So
