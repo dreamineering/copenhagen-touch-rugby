@@ -1,9 +1,10 @@
-import Navbar from "./Navbar";
+import { Navbar } from './Navbar';
+import Header from './Header';
 // import { TypingText, TitleText } from "./CustomTexts";
 // import ExploreCard from "./ExploreCard";
 // import StartSteps from "./StartSteps";
 // import NewFeatures from "./NewFeatures";
 // import InsightCard from "./InsightCard";
-import Footer from "./FooterHome";
+import Footer from './FooterHome';
 
-export { Navbar, Footer };
+export { Header, Navbar, Footer };

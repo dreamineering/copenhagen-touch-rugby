@@ -36,14 +36,14 @@ Card.Link = function CardLink({ children, ...props }) {
 
 Card.Title = function CardTitle({ as: Component = 'h2', href, children }) {
   return (
-    <Component className="text-xl font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
+    <Component className="text-3xl font-semibold tracking-tight text-zinc-800 dark:text-zinc-100">
       {href ? <Card.Link href={href}>{children}</Card.Link> : children}
     </Component>
   );
 };
 
 Card.Description = function CardDescription({ children }) {
-  return <p className="relative z-10 mt-2 text-sm text-zinc-600 dark:text-zinc-400">{children}</p>;
+  return <p className="relative z-10 mt-2 text-lg text-zinc-600 dark:text-zinc-400">{children}</p>;
 };
 
 Card.Cta = function CardCta({ children }) {

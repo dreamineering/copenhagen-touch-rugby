@@ -30,9 +30,16 @@ const Footer = () => (
       </Link>
       <div className="flex flex-col">
         <div className="mb-[50px] h-[2px] bg-white opacity-10"></div>
+        <p className="text-white">
+          Please{' '}
+          <Link href={'https://www.facebook.com/groups/172852439436767/events'}>
+            <span className="text-green-500">confirm your intent to play</span>
+          </Link>{' '}
+          to prevent a trip to the park for nothing.
+        </p>
         <div className="flex items-center justify-between gap-4">
           <p className="font-normal text-[18px] md:text-[24px] text-white opacity-70">
-            <a href="https://www.facebook.com/groups/172852439436767">Get in touch</a>
+            <Link href="/about">Get into touch</Link>
           </p>
           <div className="flex gap-4">
             {socials.map((social) => (
