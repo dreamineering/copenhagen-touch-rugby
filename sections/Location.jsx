@@ -10,12 +10,14 @@ const Location = () => {
           <h2 className="text-center text-white uppercase text-3xl pb-20 tracking-tight sm:text-4xl md:text-4xl xl:text-5xl">
             <span className="font-bold text-5xl sm:text-6xl md:text-6xl xl:text-7xl">
               <Link href={'https://www.google.com/maps/@55.6988945,12.5710524,17.48z'}>
-                <span className="opacity-80 text-red-600 hover:text-red-500">Find the action</span>
+                <span className="opacity-90 text-white hover:text-red-600 text-8xl sm:text-9xl md:text-10xl xl:text-12xl">
+                  Find us
+                </span>
               </Link>
             </span>
             <span className="leading-6 block">
               <br />
-              at Faelledparken
+              in Faelledparken
             </span>
           </h2>
           <div className="w-full ">

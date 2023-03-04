@@ -54,7 +54,7 @@ const Footer = () => (
         </div>
         <p className="text-white opacity-70 pt-6 text-lg md:text-xl text-center">
           <Link href={'https://www.facebook.com/groups/172852439436767/events'}>
-            <span className="hover:text-green-400">Confirm the game is on</span>
+            <span className="hover:text-green-400">Check play is going ahead</span>
           </Link>
         </p>
       </div>
