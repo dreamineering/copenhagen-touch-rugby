@@ -47,37 +47,29 @@ export default function About() {
             />
           </div>
         </div>
-        <div className="pt-10">
+        <div className="pt-10 flex max-w-3xl flex-col">
           <div className="text-xl">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              Join in
+              About
             </h1>
             <p className="text-xl pt-12 tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
-              Playing touch is a great way to get fit and make friends. Please track{' '}
-              <Link href={'https://www.facebook.com/groups/172852439436767/events'}>
-                <span className="text-green-700">events</span>
-              </Link>{' '}
-              posted to our{' '}
-              <Link href={'https://www.facebook.com/groups/172852439436767'}>
-                <span className="text-green-700">facebook group</span>
-              </Link>{' '}
-              to confirm your intent to play and track if play is going ahead due to sufficient
-              interest.
+              Playing Touch Rugby is a great way to get fit while making friends and has been played
+              in Copenhagen at Faelledparken on a social basis for many years.
             </p>
             <div className="mt-4 text-lg space-y-7 text-zinc-600 dark:text-zinc-400">
               <h2 className="text-3xl pt-10 font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-4xl">
-                Registration
+                Association
               </h2>
               <p>
-                Copenhagen Touch Rugby became an officially registered club in 2022, after many
-                years of playing at faelledparken on a social basis. The club has been formed with
-                the goal of supporting and developing the playing and social needs of the game that
-                we all enjoy.
+                In 2022 with the aim of developing the game and bulding a stronger community,
+                Copenhagen Touch Rugby became an officially{' '}
+                <a href="https://frivillighed.dk/foreningsportalen/hvad-er-en-forening">forening</a>
+                .
               </p>
               <p>
-                The board is currently in contact with København Kommune regarding obtaining rights
-                to playing fields at faelledparken and the possibility of receiving financial
-                support for our club.
+                The board is currently in contact with Copenhagen Council regarding obtaining rights
+                to playing fields at Faelledparken and the possibility of receiving financial
+                support.
               </p>
               <p>
                 To achieve these goals and to cover club expenses we need your support to collect
