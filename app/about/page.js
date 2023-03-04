@@ -52,26 +52,50 @@ export default function About() {
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
               About
             </h1>
-            <p className="text-xl pt-12 tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
-              Playing Touch Rugby is a great way to get fit while making friends and has been played
-              in Copenhagen at Faelledparken on a social basis for many years.
-            </p>
+            <div className="text-xl pt-12 tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl space-y-7">
+              <p>
+                <Link href="/play">
+                  <span className="text-green-700 hover:text-green-600">Playing Touch Rugby</span>
+                </Link>{' '}
+                is a great way to gain fitness while having fun.
+              </p>
+              <p>
+                Pick-up games have been played at Faelledparken over many years and has provided
+                many people of many different nations, ethnicities and genders to participate
+                equally while making life-long friendships.
+              </p>
+              <p>
+                No experience is required to join the action, just introduce yourself at the
+                sideline and you will be taught the basics of how to play. If you are unfamiliar
+                with touch rugby, here is some information on{' '}
+                <Link href="/play">
+                  <span className="text-green-700 hover:text-green-600">playing the game</span>
+                </Link>
+                .
+              </p>
+            </div>
             <div className="mt-4 text-lg space-y-7 text-zinc-600 dark:text-zinc-400">
               <h2 className="text-3xl pt-10 font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-4xl">
                 Association
               </h2>
               <p>
-                In 2022 with the aim of developing the game and bulding a stronger community,
-                Copenhagen Touch Rugby became an officially{' '}
-                <a href="https://frivillighed.dk/foreningsportalen/hvad-er-en-forening">forening</a>
-                .
+                Games are still played on a pick-up basis at Faelledparken, but there are plans to
+                develop the game further and build a stronger community, therefore Copenhagen Touch
+                Rugby become a registered{' '}
+                <a href="https://frivillighed.dk/foreningsportalen/hvad-er-en-forening">forening</a>{' '}
+                during 2021.
               </p>
               <p>
-                The board is currently in contact with Copenhagen Council regarding obtaining rights
-                to playing fields at Faelledparken and the possibility of receiving financial
-                support.
+                The elected board is currently in contact with Copenhagen Council to obtain the
+                rights to dedicated playing fields at Faelledparken and gain financial support for
+                our growing international commmunity. The board are also working towards plans to
+                host a structured competitive league in the future.
               </p>
               <p>
+                An annual general meeting will be held in 2023 where all subscribed members are
+                welcome to attend.
+              </p>
+              {/* <p>
                 To achieve these goals and to cover club expenses we need your support to collect
                 player data and fees/subscriptions. These expenses include playing equipment, first
                 aid, bank account, accounting, digital presence and social events.
@@ -88,23 +112,29 @@ export default function About() {
               <p>
                 Payments can be made to Mobilepay box 2955HH where Treasurer, Nick Smith is the
                 owner of the box.
-              </p>
+              </p> */}
               <h3 className="text-2xl font-bold">Board Members</h3>
               <p>
                 The club is supported by a board of voluntary members you can contact with queries
                 or great ideas through the links below.
               </p>
               <ul role="list">
-                <li>Chairman: Matt Humphrey</li>
-                <li>Vice Chairman: Scott Rooney</li>
-                <li>Welfare Officer: Rita Humeau</li>
-                <li>Secretary: Kane Limbrik</li>
-                <li>Treasurer: Nick Smith: </li>
+                <li>
+                  <span className="font-semibold">Chairman:</span> Matt Humphrey
+                </li>
+                <li>
+                  <span className="font-semibold">Vice Chairman:</span> Scott Rooney
+                </li>
+                <li>
+                  <span className="font-semibold">Welfare Officer:</span> Rita Humeau
+                </li>
+                <li>
+                  <span className="font-semibold">Secretary:</span> Kane Limbrik
+                </li>
+                <li>
+                  <span className="font-semibold">Treasurer:</span> Nick Smith:{' '}
+                </li>
               </ul>
-              <p>
-                An annual general meeting will be held in 2023 where all subscribed members are
-                welcome to attend.
-              </p>
             </div>
           </div>
           <div className="py-10">
