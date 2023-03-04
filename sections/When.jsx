@@ -22,10 +22,13 @@ const When = () => {
   return (
     <section className={`${styles.paddings} bg-green-800`} id="when">
       <div className="md:mx-10 xl:mx-60 2xl:mx-80 pt-10 xl:pt-24">
-        <h2 className="text-white uppercase text-center text-3xl pt-4 tracking-tight font-bold  sm:text-4xl md:text-4xl xl:text-5xl">
-          Newcomers{' '}
+        <h2 className="text-white uppercase text-center text-3xl pt-4 tracking-tight sm:text-4xl md:text-4xl xl:text-5xl">
+          New Players
+          <br />
           <Link className="" href={'/about'}>
-            <span className="text-gray-300 hover:text-red-600">welcome</span>
+            <span className="hover:text-red-500 text-red-600 opacity-80 pb-4 tracking-tight font-bold text-6xl  sm:text-8xl md:text-8xl xl:text-9xl">
+              welcome
+            </span>
           </Link>
         </h2>
       </div>
@@ -33,7 +36,7 @@ const When = () => {
         <dl className="mt-10 text-center sm:max-w-3xl sm:mx-auto sm:grid sm:grid-cols-2 sm:gap-8">
           <div className="flex flex-col mt-10 sm:mt-0 ">
             <Link className="" href={'/play'}>
-              <h1 className="hover:text-red-600 text-7xl pb-4 tracking-tight font-bold text-gray-300 sm:text-8xl md:text-8xl xl:text-9xl uppercase">
+              <h1 className="hover:text-red-500 text-red-600 opacity-80 text-8xl sm:text-9xl md:text-10xl xl:text-12xl uppercase tracking-tight font-bold">
                 Play
               </h1>
             </Link>
