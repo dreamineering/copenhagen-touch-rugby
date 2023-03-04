@@ -57,15 +57,26 @@ export default function About() {
                 <Link href="/play">
                   <span className="text-green-700 hover:text-green-600">Playing Touch Rugby</span>
                 </Link>{' '}
-                is a great way to gain fitness while having fun.
+                is a great way to gain fitness while making new friends when living in Copenhagen.
+                We play year round in Faelledparken at 10:30 on Sunday and at 18:00 on Wednesday
+                during the Danish summertime.
+              </p>
+            </div>
+            <div className="mt-4 text-lg space-y-7 text-zinc-600 dark:text-zinc-400">
+              <p>
+                Pick-up games have been played at Faelledparken over many years, providing the
+                opportunity for many people of many different nations, ethnicities and genders to
+                participate in play equally and make connections that form into life-long
+                friendships.
               </p>
               <p>
-                Pick-up games have been played at Faelledparken over many years and has provided
-                many people of many different nations, ethnicities and genders to participate
-                equally while making life-long friendships.
+                We frequently socialise at Bootleggers, particularly to watch rugby. During the
+                summer months we often BBQ after the games and arrange meet-ups to swim, play padel
+                tennis, take paddle board tours etc. At least once a year a team travels abroad to
+                play in a tournament.
               </p>
               <p>
-                No experience is required to join the action, just introduce yourself at the
+                No experience is required to join in the action, just introduce yourself at the
                 sideline and you will be taught the basics of how to play. If you are unfamiliar
                 with touch rugby, here is some information on{' '}
                 <Link href="/play">
