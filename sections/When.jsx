@@ -26,7 +26,7 @@ const When = () => {
           New Players
           <br />
           <Link className="" href={'/about'}>
-            <span className="hover:text-red-500 text-red-600 opacity-80 pb-4 tracking-tight font-bold text-6xl  sm:text-8xl md:text-8xl xl:text-9xl">
+            <span className="hover:text-red-600 text-white opacity-90 pb-4 tracking-tight font-bold text-6xl  sm:text-8xl md:text-8xl xl:text-9xl">
               welcome
             </span>
           </Link>
@@ -36,7 +36,7 @@ const When = () => {
         <dl className="mt-10 text-center sm:max-w-3xl sm:mx-auto sm:grid sm:grid-cols-2 sm:gap-8">
           <div className="flex flex-col mt-10 sm:mt-0 ">
             <Link className="" href={'/play'}>
-              <h1 className="hover:text-red-500 text-red-600 opacity-80 text-8xl sm:text-9xl md:text-10xl xl:text-12xl uppercase tracking-tight font-bold">
+              <h1 className="hover:text-red-600 text-white opacity-90 text-8xl sm:text-9xl md:text-10xl xl:text-12xl uppercase tracking-tight font-bold">
                 Play
               </h1>
             </Link>
