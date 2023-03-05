@@ -3,9 +3,10 @@ import { ArticleLayout } from '@/components/ArticleLayout';
 
 export const meta = {
   author: 'Matt Mischewski',
+  order: 4,
   date: '2023-02-02',
   title: 'Attack',
-  description: 'Practicing attack',
+  description: 'Attacking flow',
 };
 
 export default (props) => <ArticleLayout meta={meta} {...props} />;
@@ -49,9 +50,9 @@ Once near the line
 <ul>
   <li>
     <Link href="/play/rules">Rules</Link>
-    <Link href="/play/players">Rules</Link>
+    <Link href="/play/players">Players</Link>
     <Link href="/play/attack">Attack</Link>
-    <Link href="/play/defence">Attack</Link>
-    <Link href="/play/skills">Attack</Link>
+    <Link href="/play/defence">Defence</Link>
+    <Link href="/play/skills">Skills</Link>
   </li>
 </ul>
