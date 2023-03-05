@@ -15,10 +15,6 @@ const Location = () => {
                 </span>
               </Link>
             </span>
-            <span className="leading-6 block">
-              <br />
-              in Faelledparken
-            </span>
           </h2>
           <div className="w-full ">
             <Image
@@ -29,6 +25,9 @@ const Location = () => {
               height={600}
             />
           </div>
+          <h2 className="text-center text-white uppercase text-3xl pt-6 tracking-tight sm:text-4xl md:text-4xl xl:text-5xl">
+            Faelledparken
+          </h2>
         </div>
       </div>
     </section>

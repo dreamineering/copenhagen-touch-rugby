@@ -18,16 +18,19 @@ const Footer = () => (
         </h4>
       </div>
       <h4 className="text-[18px] text-white opacity-70">Sponsored by</h4>
-      <Link href="https://www.bootleggers.dk/">
-        <Image
-          src={'/img/bootleggers-logo.webp'}
-          width={400}
-          height={400}
-          alt="Bootleggers Bar"
-          className="opacity-70"
-          priority
-        />
-      </Link>
+      <div className="w-[260px]">
+        <Link href="https://www.bootleggers.dk/">
+          <Image
+            src={'/img/bootleggers-logo.webp'}
+            width="0"
+            height="0"
+            sizes="100vw"
+            alt="Bootleggers Bar"
+            className="w-full h-auto opacity-70"
+            priority
+          />
+        </Link>
+      </div>
       <div className="flex flex-col">
         <div className="mb-[50px] h-[2px] bg-white opacity-10"></div>
 

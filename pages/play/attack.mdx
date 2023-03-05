@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { ArticleLayout } from '@/components/ArticleLayout';
+import { PlayNav } from '@/components';
 
 export const meta = {
   author: 'Matt Mischewski',
@@ -18,12 +19,11 @@ To score a try a person other than the dummy half must put the ball down over th
 Aim to gain as much ground as possible with low risk while making the defence scrabble backwards and become disjointed. Maintain a smooth attacking flow by keeping the time from a touch until the ball is in the dummy half's hands to a minimum.
 
 <iframe
-  class="w-full aspect-video"
+  className="w-full aspect-video"
   src="https://www.youtube.com/embed/87nizkI2ahw?start=1733"
-  frameborder="0"
+  frameBorder="0"
   height="400"
-  allowfullscreen
-  width="100%"
+  allowFullScreen
 ></iframe>
 
 ### Slow is smooth, smooth is fast.
@@ -45,14 +45,4 @@ Once you get near the line do some hard out moves.
 
 - Do some deadly moves
 
-## Related
-
-<ul>
-  <li>
-    <Link href="/play/rules">Rules</Link>
-    <Link href="/play/players">Players</Link>
-    <Link href="/play/attack">Attack</Link>
-    <Link href="/play/defence">Defence</Link>
-    <Link href="/play/skills">Skills</Link>
-  </li>
-</ul>
+<PlayNav />
