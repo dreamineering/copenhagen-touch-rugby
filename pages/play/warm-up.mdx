@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { ArticleLayout } from '@/components/ArticleLayout';
+import { PlayNav } from '@/components';
 
 export const meta = {
   author: 'Matt Mischewski',
@@ -14,30 +15,9 @@ export default (props) => <ArticleLayout meta={meta} {...props} />;
 Dynamic warmup.
 
 <iframe
-  class="w-full aspect-video"
-  src="https://www.youtube.com/embed/X8NGIVGmgkc"
-  frameborder="0"
+  className="w-full aspect-video"
   height="400"
-  allowfullscreen
-  width="100%"
+  src="https://www.youtube.com/embed/X8NGIVGmgkc"
 ></iframe>
 
-## Related
-
-<ul className="list-disc">
-  <li>
-    <Link href="/play/rules">Rules</Link>
-  </li>
-  <li>
-    <Link href="/play/players">Players</Link>
-  </li>
-  <li>
-    <Link href="/play/attack">Attack</Link>
-  </li>
-  <li>
-    <Link href="/play/defence">Defence</Link>
-  </li>
-  <li>
-    <Link href="/play/skills">Skills</Link>
-  </li>
-</ul>
+<PlayNav />
