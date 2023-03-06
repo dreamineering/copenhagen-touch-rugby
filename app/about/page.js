@@ -58,8 +58,8 @@ export default function About() {
                   <span className="text-green-700 hover:text-green-600">Playing Touch Rugby</span>
                 </Link>{' '}
                 is a great way to gain fitness while making new friends when living in Copenhagen.
-                We play year round in Faelledparken at 10:30 on Sunday and at 18:00 on Wednesday
-                during the Danish summertime.
+                We play year round in Faelledparken at <strong>10:30 on Sunday</strong> and at{' '}
+                <strong>18:00 on Wednesday</strong> during the summertime.
               </p>
             </div>
             <div className="mt-4 text-lg space-y-7 text-zinc-600 dark:text-zinc-400">
