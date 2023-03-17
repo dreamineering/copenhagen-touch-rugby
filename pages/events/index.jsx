@@ -1,31 +1,22 @@
-import Head from "next/head";
+import Head from 'next/head';
 
-import { Card } from "@/components/Card";
-import { SimpleLayout } from "@/components/SimpleLayout";
-import { formatDate } from "@/lib/formatDate";
-import { getAllEvents } from "@/lib/getAllEvents";
+import { Card } from '@/components/Card';
+import { SimpleLayout } from '@/components/SimpleLayout';
+import { formatDate } from '@/lib/formatDate';
+import { getAllEvents } from '@/lib/getAllEvents';
 
 function Event({ event }) {
   return (
     <event className="md:grid md:grid-cols-4 md:items-baseline pb-12 ">
       <Card className="md:col-span-3">
         <Card.Title href={`/events/${event.slug}`}>{event.title}</Card.Title>
-        <Card.Eyebrow
-          as="time"
-          dateTime={event.date}
-          className="md:hidden"
-          decorate
-        >
+        <Card.Eyebrow as="time" dateTime={event.date} className="md:hidden" decorate>
           {formatDate(event.date)}
         </Card.Eyebrow>
         <Card.Description>{event.description}</Card.Description>
         <Card.Cta>Learn more</Card.Cta>
       </Card>
-      <Card.Eyebrow
-        as="time"
-        dateTime={event.date}
-        className="mt-1 hidden md:block"
-      >
+      <Card.Eyebrow as="time" dateTime={event.date} className="mt-1 hidden md:block">
         {formatDate(event.date)}
       </Card.Eyebrow>
     </event>
