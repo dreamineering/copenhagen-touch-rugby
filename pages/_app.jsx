@@ -17,6 +17,19 @@ function usePrevious(value) {
 export default function App({ Component, pageProps, router }) {
   let previousPathname = usePrevious(router.pathname);
 
+  useEffect(() => {
+    import("react-facebook-pixel")
+      .then((x) => x.default)
+      .then((ReactPixel) => {
+        ReactPixel.init("2237940296411518");
+        ReactPixel.pageView();
+
+        router.events.on("routeChangeComplete", () => {
+          ReactPixel.pageView();
+        });
+      });
+  }, [router.events]);
+
   return (
     <>
       <div className="fixed inset-0 flex justify-center sm:px-8">
