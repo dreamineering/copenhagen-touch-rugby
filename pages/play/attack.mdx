@@ -1,23 +1,48 @@
-import { ArticleLayout } from "@/components/ArticleLayout";
+import Link from 'next/link';
+import { ArticleLayout } from '@/components/ArticleLayout';
+import { PlayNav } from '@/components';
 
 export const meta = {
-  author: "Matt Mischewski",
-  date: "2023-02-02",
-  title: "Attack",
-  description: "Practicing attack",
+  author: 'Matt Mischewski',
+  order: 4,
+  date: '2023-02-02',
+  title: 'Attack',
+  description: 'Attacking flow',
 };
 
 export default (props) => <ArticleLayout meta={meta} {...props} />;
 
-Put the ball down over the try line without being touched.
-
-## How
-
-- Make the opposition tired
-- Do some deadly moves
+To score a try a person other than the dummy half must put the ball down over the try line without being touched.
 
 ## Driving
 
-Be predictable for your dummy half.
+Aim to gain as much ground as possible with low risk while making the defence scrabble backwards and become disjointed. Maintain a smooth attacking flow by keeping the time from a touch until the ball is in the dummy half's hands to a minimum.
 
-Watch how [straya](https://www.youtube.com/watch?v=87nizkI2ahw&t=1733s) dose it.
+<iframe
+  className="w-full aspect-video"
+  src="https://www.youtube.com/embed/87nizkI2ahw?start=1733"
+  frameBorder="0"
+  height="400"
+  allowFullScreen
+></iframe>
+
+### Slow is smooth, smooth is fast.
+
+As an attacker running with the ball aim to be predictable then get out the way and into a position to carry again if needed.
+
+1. Run to the side of a defender but **don't try to beat them**
+2. Make the touch, **don't wait to be touched**
+3. Roll the ball slowly
+4. Take a good step forwards
+5. Step sideways to get out of way
+6. Be a passing option for the dummy
+
+When you attempting to make ground you should attempt to make it easy for your dummy-half to immediately scoop the ball up and run directly at the try line.
+
+## Attacking Moves
+
+Once you get near the line do some hard out moves.
+
+- Do some deadly moves
+
+<PlayNav />

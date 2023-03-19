@@ -3,10 +3,10 @@ import Script from "next/script";
 import { useRouter } from "next/router";
 import * as fbq from "../lib/fpixel";
 
-import { Footer, Navbar } from "@/components";
+import { Footer, Header, Navbar } from "@/components";
 
-import "@/styles/globals.css";
-import "focus-visible";
+import '@/styles/globals.css';
+import 'focus-visible';
 
 function usePrevious(value) {
   let ref = useRef();
@@ -63,6 +63,7 @@ export default function App({ Component, pageProps, router }) {
       </div>
       <div className="relative">
         <Navbar />
+        <Header />
         <main>
           <Component previousPathname={previousPathname} {...pageProps} />
         </main>

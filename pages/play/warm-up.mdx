@@ -1,0 +1,23 @@
+import Link from 'next/link';
+import { ArticleLayout } from '@/components/ArticleLayout';
+import { PlayNav } from '@/components';
+
+export const meta = {
+  author: 'Matt Mischewski',
+  order: 4,
+  date: '2023-02-02',
+  title: 'Warm up',
+  description: 'It is a stink buzz having to sit on the sideline with an injury',
+};
+
+export default (props) => <ArticleLayout meta={meta} {...props} />;
+
+Dynamic warmup.
+
+<iframe
+  className="w-full aspect-video"
+  height="400"
+  src="https://www.youtube.com/embed/X8NGIVGmgkc"
+></iframe>
+
+<PlayNav />
