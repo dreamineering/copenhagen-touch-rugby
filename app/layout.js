@@ -1,10 +1,11 @@
-import '../styles/globals.css';
+import { Analytics } from '@vercel/analytics/react';
 import { Inter, Source_Sans_Pro } from '@next/font/google';
 
 import { Footer, Header, Navbar } from '@/components';
 
 // https://www.garett.co/21-google-fonts-combinations-for-websites-brands
 // https://bootcamp.uxdesign.cc/10-google-font-pairings-for-your-next-design-project-8e29f46c788c
+import '../styles/globals.css';
 const inter = Inter({
   weight: ['400', '700'],
   subsets: ['latin'],
@@ -38,6 +39,7 @@ export default function RootLayout({ children }) {
 
           <Footer />
         </div>
+        <Analytics />
       </body>
     </html>
   );

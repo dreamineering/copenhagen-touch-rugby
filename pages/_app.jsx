@@ -1,9 +1,10 @@
-import { useEffect, useRef } from "react";
-import Script from "next/script";
-import { useRouter } from "next/router";
-import * as fbq from "../lib/fpixel";
+import { useEffect, useRef } from 'react';
+import Script from 'next/script';
+import { useRouter } from 'next/router';
+import { Analytics } from '@vercel/analytics/react';
 
-import { Footer, Header, Navbar } from "@/components";
+import * as fbq from '@/lib/fpixel';
+import { Footer, Header, Navbar } from '@/components';
 
 import '@/styles/globals.css';
 import 'focus-visible';
@@ -31,9 +32,9 @@ export default function App({ Component, pageProps, router }) {
       fbq.pageview();
     };
 
-    router.events.on("routeChangeComplete", handleRouteChange);
+    router.events.on('routeChangeComplete', handleRouteChange);
     return () => {
-      router.events.off("routeChangeComplete", handleRouteChange);
+      router.events.off('routeChangeComplete', handleRouteChange);
     };
   }, [router.events]);
 
@@ -69,6 +70,7 @@ export default function App({ Component, pageProps, router }) {
         </main>
         <Footer />
       </div>
+      <Analytics />
     </>
   );
 }
