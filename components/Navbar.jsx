@@ -143,13 +143,13 @@ function NavItem({ href, children }) {
         className={clsx(
           'relative block px-3 py-2 transition',
           isActive
-            ? 'text-green-700 dark:text-grean-600'
+            ? 'dark:text-grean-600 text-green-700'
             : 'hover:text-green-700 dark:hover:text-green-600'
         )}
       >
         {children}
         {isActive && (
-          <span className="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-green-500/0 via-green-500/40 to-green-500/0 from-green-400/0 via-green-800/40 to-green-400/0" />
+          <span className="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-green-500/0 from-green-400/0 via-green-500/40 via-green-800/40 to-green-500/0 to-green-400/0" />
         )}
       </Link>
     </li>
@@ -159,7 +159,7 @@ function NavItem({ href, children }) {
 function DesktopNavigation(props) {
   return (
     <nav {...props}>
-      <ul className="flex rounded-full px-3 text-sm font-medium shadow-lg shadow-zinc-400 ring-2 backdrop-blur bg-zinc-100 text-zinc-800 ring-white/10">
+      <ul className="flex rounded-full bg-zinc-100 px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-400 ring-2 ring-white/10 backdrop-blur">
         <NavItem href="/">Home</NavItem>
         <NavItem href="/play">Play</NavItem>
         <NavItem href="/events">Events</NavItem>

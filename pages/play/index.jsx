@@ -8,7 +8,7 @@ import { getAllArticles } from '@/lib/getAllArticles';
 
 function Article({ article }) {
   return (
-    <article className="md:grid md:grid-cols-4 md:items-baseline pb-12 ">
+    <article className="pb-12 md:grid md:grid-cols-4 md:items-baseline ">
       <Card className="md:col-span-3">
         <Card.Title href={`/play/${article.slug}`}>{article.title}</Card.Title>
         {/* <Card.Eyebrow
@@ -38,7 +38,7 @@ export default function ArticlesIndex({ articles }) {
       </Head>
       <SimpleLayout title="Play Touch Rugby" intro="">
         <div className="flex max-w-3xl flex-col space-y-6 pb-12">
-          <p className="text-xl pb-8 tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
+          <p className="pb-8 text-xl tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
             Please join our{' '}
             <Link href={'https://www.facebook.com/groups/172852439436767'}>
               <span className="text-green-700">facebook group</span>
