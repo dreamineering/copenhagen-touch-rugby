@@ -1,13 +1,13 @@
-import Link from "next/link";
-import styles from "../styles";
+import Link from 'next/link';
+import styles from '../styles';
 
 const Player = () => {
   return (
-    <section className={`${styles.paddings} bg-green-900`} id="player">
+    <section className="xs:p-8 bg-green-900 px-6 py-8 sm:p-8" id="player">
       <svg
         width="1040"
         height="432"
-        className="object-cover h-48 w-full md:h-96 xl:mt-4"
+        className="h-48 w-full object-cover md:h-96 xl:mt-4"
         viewBox="0 0 1040 432"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
