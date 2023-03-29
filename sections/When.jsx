@@ -30,7 +30,7 @@ const When = () => {
               </h1>
             </Link>
           </div>
-          <div className="pt-12 flex flex-col md:flex-row mx-auto text-center md:w-4/5 space-y-10" >
+          <div className="pt-12 flex flex-col md:flex-row mx-auto text-center md:w-4/5 space-y-10 md:space-y-0" >
             <div className="flex flex-col mx-auto space-y-4">
               <div className="text-5xl font-medium leading-6 text-white md:text-7xl">SUN</div>
               <div className="text-8xl font-extrabold text-white md:text-8xl">10:30</div>
