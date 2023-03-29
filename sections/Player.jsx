@@ -3,7 +3,7 @@ import styles from '../styles';
 
 const Player = () => {
   return (
-    <section className="xs:p-8 bg-green-900 px-6 py-8 sm:p-8" id="player">
+    <section className="xs:pt-8 bg-green-900 px-6 pt-8" id="player">
       <svg
         width="1040"
         height="432"
