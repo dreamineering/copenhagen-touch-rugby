@@ -6,6 +6,9 @@ export default function PlayNav() {
       <h2>Play the Game</h2>
       <ul className="list-disc">
         <li>
+          <Link href="/play/introduction">Intro</Link>
+        </li>
+        <li>
           <Link href="/play/rules">Rules</Link>
         </li>
         <li>
