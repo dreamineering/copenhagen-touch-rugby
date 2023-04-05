@@ -1,0 +1,24 @@
+import { ArticleLayout } from '@/components/ArticleLayout';
+import { PlayNav } from '@/components';
+
+export const meta = {
+  author: 'Matt Mischewski',
+  order: 2,
+  date: '2023-02-02',
+  title: 'Players',
+  description: 'Players and positions',
+};
+
+export default (props) => <ArticleLayout meta={meta} {...props} />;
+
+Touch rugby is a sport open to all ages with mens, womens and mixed teams playing competitively at an international level.
+
+<iframe
+  className="aspect-video w-full"
+  src="https://www.youtube.com/embed/q7vQciY-wrU"
+  frameBorder="0"
+  height="400"
+  allowFullScreen
+></iframe>
+
+<PlayNav />
