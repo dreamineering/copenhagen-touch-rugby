@@ -144,12 +144,12 @@ function NavItem({ href, children }) {
           'relative block px-3 py-2 transition',
           isActive
             ? 'dark:text-grean-600 text-green-700'
-            : 'hover:text-green-700 dark:hover:text-green-600'
+            : 'hover:text-green-800 dark:hover:text-green-800'
         )}
       >
         {children}
         {isActive && (
-          <span className="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-green-500/0 from-green-400/0 via-green-500/40 via-green-800/40 to-green-500/0 to-green-400/0" />
+          <span className="absolute inset-x-1 -bottom-px h-px" />
         )}
       </Link>
     </li>
