@@ -36,30 +36,21 @@ export default function ArticlesIndex({ articles }) {
         <title>Play - Copenhagen Touch Rugby</title>
         <meta name="description" content="Rules and instructions on how to play touch rugby" />
       </Head>
-      <SimpleLayout title="Play Touch Rugby" intro="">
+      <SimpleLayout title="Play" intro="">
         <div className="flex max-w-3xl flex-col space-y-6 pb-12">
-          <p className="pb-8 text-xl tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
-            Please join our{' '}
+          <p className="text-lg tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-xl">
+            We play informally, creating as many games as player numbers allow. Just look for a
+            group throwing a ball around, introduce yourself, and then you are welcome to join the
+            action.
+          </p>
+          <p className="text-lg tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-xl">
+            Copenhagen Touch Rugby recently became a{' '}
+            <Link href="https://www.dgi.dk/foreningsledelse/viden-vaerktoejer/viden-vaerktoejer/start-forening/hvad-er-en-forening">
+              <span className="text-green-700 hover:text-green-800">registered forening</span>
+            </Link>{' '}
+            with plans to create a competitive league. To learn more join our{' '}
             <Link href={'https://www.facebook.com/groups/172852439436767'}>
-              <span className="text-green-700">facebook group</span>
-            </Link>{' '}
-            and check{' '}
-            <Link href={'https://www.facebook.com/groups/172852439436767/events'}>
-              <span className="text-green-700">event updates</span>
-            </Link>{' '}
-            to confirm that play is going ahead.
-          </p>
-          <p className="text-lg tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-xl">
-            We play informally, creating as many games as players and subs allow. So just find a
-            group throwing a ball around, introduce yourself and you're in. We are a friendly bunch
-            from all over the world so don't worry about formalities, just put a smile on your face
-            and enjoy yourself.
-          </p>
-          <p className="text-lg tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-xl">
-            Copenhagen Touch Rugby recently became registered with the Danish authorities and the
-            board is actively working towards creating a formal competitive league.{' '}
-            <Link href="/about">
-              <span className="text-green-700 hover:text-green-600">Learn more</span>.
+              <span className="text-green-700 hover:text-green-800">Facebook group</span>
             </Link>
           </p>
         </div>

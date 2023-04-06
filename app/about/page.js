@@ -12,7 +12,7 @@ function SocialLink({ className, href, children, icon: Icon }) {
     <li className={clsx(className, 'flex')}>
       <Link
         href={href}
-        className="group flex text-sm font-medium text-zinc-800 transition hover:text-green-500 dark:text-zinc-200 dark:hover:text-green-500"
+        className="group flex text-sm font-medium text-zinc-800 transition hover:text-green-800 dark:text-zinc-200 dark:hover:text-green-800"
       >
         <Icon className="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-green-500" />
         <span className="ml-4">{children}</span>
@@ -43,26 +43,26 @@ export default function About() {
               alt="The Crew"
               width={1000}
               height={1000}
-              className="bg-zinc-100 w-full object-cover dark:bg-zinc-800"
+              className="w-full bg-zinc-100 object-cover dark:bg-zinc-800"
             />
           </div>
         </div>
-        <div className="pt-10 flex max-w-3xl flex-col">
+        <div className="flex max-w-3xl flex-col pt-10">
           <div className="text-xl">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
               About
             </h1>
-            <div className="text-xl pt-12 tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl space-y-7">
+            <div className="space-y-7 pt-12 text-xl tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
               <p>
                 <Link href="/play">
-                  <span className="text-green-700 hover:text-green-600">Playing Touch Rugby</span>
+                  <span className="text-green-700 hover:text-green-800">Playing Touch Rugby</span>
                 </Link>{' '}
                 is a great way to gain fitness while making new friends when living in Copenhagen.
                 We play year round in Faelledparken at <strong>10:30 on Sunday</strong> and at{' '}
                 <strong>18:00 on Wednesday</strong> during the summertime.
               </p>
             </div>
-            <div className="mt-4 text-lg space-y-7 text-zinc-600 dark:text-zinc-400">
+            <div className="mt-4 space-y-7 text-lg text-zinc-600 dark:text-zinc-400">
               <p>
                 Pick-up games have been played at Faelledparken over many years, providing the
                 opportunity for many people of many different nations, ethnicities and genders to
@@ -80,13 +80,13 @@ export default function About() {
                 sideline and you will be taught the basics of how to play. If you are unfamiliar
                 with touch rugby, here is some information on{' '}
                 <Link href="/play">
-                  <span className="text-green-700 hover:text-green-600">playing the game</span>
+                  <span className="text-green-700 hover:text-green-800">playing the game</span>
                 </Link>
                 .
               </p>
             </div>
-            <div className="mt-4 text-lg space-y-7 text-zinc-600 dark:text-zinc-400">
-              <h2 className="text-3xl pt-10 font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-4xl">
+            <div className="mt-4 space-y-7 text-lg text-zinc-600 dark:text-zinc-400">
+              <h2 className="pt-10 text-3xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-4xl">
                 Association
               </h2>
               <p>

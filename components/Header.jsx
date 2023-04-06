@@ -8,15 +8,15 @@ const inter = Inter({
 });
 
 const Header = () => (
-  <nav className={`${styles.xPaddings} pt-8 pb-6 md:pb-[100px] xl:pb-[200px] relative`}>
-    <div className="absolute w-[50%] inset-0" />
+  <nav className={`${styles.xPaddings} relative pt-8 pb-6 md:pb-[100px] xl:pb-[110px]`}>
+    <div className="absolute inset-0 w-[50%]" />
     <div className={`${styles.innerWidth} mx-auto`}>
       <h2
-        className={`${inter.className} mx-auto pt-4 text-center font-bold text-[18px] md:text-[70px] xl:text-[90px] text-black uppercase tracking-widest`}
+        className={`${inter.className} mx-auto pt-4 text-center text-[18px] font-bold uppercase tracking-widest text-black md:text-[70px] xl:text-[90px]`}
       >
         Copenhagen
       </h2>
-      <h1 className="mx-auto text-center font-bold text-[40px] md:text-[110px] xl:text-[160px] text-black uppercase">
+      <h1 className="mx-auto text-center text-[40px] font-bold uppercase text-black md:text-[110px] xl:text-[160px]">
         Touch Rugby
       </h1>
     </div>

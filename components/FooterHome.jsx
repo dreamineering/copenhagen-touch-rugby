@@ -8,16 +8,16 @@ import styles from '../styles';
 import { socials } from '../data/constants';
 
 const Footer = () => (
-  <footer className="px-10 pt-20 pb-10 relative bg-black">
+  <footer className="relative bg-black px-10 pt-20 pb-10">
     <div className="footer-gradient" />
 
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-2`}>
-      <div className="flex items-center justify-between flex-wrap gap-5">
-        <h4 className="font-bold text-[18px] md:text-[24px] uppercase text-white opacity-70">
+      <div className="flex flex-wrap items-center justify-between gap-5">
+        <h4 className="text-[18px] font-bold uppercase text-white opacity-70 md:text-[24px]">
           Copenhagen Touch rugby
         </h4>
       </div>
-      <h4 className="text-[14px] md:text-[16px] text-white opacity-70">Sponsored by</h4>
+      <h4 className="text-[14px] text-white opacity-70 md:text-[16px]">Sponsored by</h4>
       <div className="w-[260px] md:w-[400px]">
         <Link href="https://www.bootleggers.dk/">
           <Image
@@ -26,7 +26,7 @@ const Footer = () => (
             height="0"
             sizes="100vw"
             alt="Bootleggers Bar"
-            className="w-full h-auto opacity-70"
+            className="h-auto w-full opacity-70"
             priority
           />
         </Link>
@@ -35,7 +35,7 @@ const Footer = () => (
         <div className="mb-[50px] h-[2px] bg-white opacity-10"></div>
 
         <div className="flex items-center justify-between gap-4 opacity-70">
-          <p className="font-normal text-xl  md:text-2xl md:text-[24px] text-white ">
+          <p className="text-xl font-normal  text-white md:text-2xl md:text-[24px] ">
             <Link href="/about">
               <span className="hover:text-green-400">Get in touch</span>
             </Link>
@@ -49,15 +49,17 @@ const Footer = () => (
                   alt={social.name}
                   height={24}
                   width={24}
-                  className="w-[24px] h-[24px] object-contain cursor-pointer"
+                  className="h-[24px] w-[24px] cursor-pointer object-contain"
                 />
               </Link>
             ))}
           </div>
         </div>
-        <p className="text-white opacity-70 pt-6 text-lg md:text-4xl text-center">
+        <p className="pt-6 text-center text-base text-white opacity-70 md:text-xl">
+          Please check{' '}
           <Link href={'https://www.facebook.com/groups/172852439436767/events'}>
-            <span className="hover:text-green-400">Check play is going ahead</span>
+            <span className="text-green-400 hover:text-green-500">event updates</span> to confirm
+            play is going ahead
           </Link>
         </p>
       </div>
