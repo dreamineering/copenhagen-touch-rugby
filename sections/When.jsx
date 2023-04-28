@@ -37,7 +37,7 @@ const When = () => {
             </div>
             <div className="mx-auto flex flex-col space-y-4">
               <div className="text-5xl font-medium leading-6 text-white md:text-7xl">WED</div>
-              <div className="text-8xl font-extrabold text-white md:text-8xl">17:30</div>
+              <div className="text-8xl font-extrabold text-white md:text-8xl">18:00</div>
             </div>
           </div>
         </div>
